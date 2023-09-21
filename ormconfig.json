@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "host": "127.0.0.1",
+  "port": 5432,
+  "username": "seojun",
+  "password": "password123",
+  "database": "nest_product_api",
+  "synchronize": true,
+  "logging": true,
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "migrations": ["dist/migrations/*{.ts,.js}"],
+  "subscribers": ["dist/subscribers/*{.ts,.js}"]
+}
